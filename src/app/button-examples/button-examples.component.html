@@ -1,0 +1,40 @@
+<h3>Variant Examples</h3>
+
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-secondary">Secondary</button>
+<button class="btn btn-link">Link</button>
+<button class="btn btn-danger">Danger</button>
+
+<h3>Button Tags</h3>
+<p>The button classes can be applied to <code>&lt;a&gt;</code> and <code>&lt;input&gt;</code> elements as well</p>
+
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+<input class="btn btn-primary" type="submit" value="Submit">
+
+<p>When using button classes on <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality instead of linking to pages, be sure to add role="button" so that screen readers can convey their functionality appropiately.</p>
+
+<h3>Sizes</h3>
+<p>Use <code>.btn-lg</code> and <code>.btn-sm</code> classes for button sizing.</p>
+
+<div>
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+</div>
+
+<div>
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+</div>
+
+<h3>Disabled State</h3>
+<p>Add the <code>disabled</code> attribute to any button element</p>
+
+<button type="button" class="btn btn-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary" disabled>Button</button>
+
+<h5>Disabled Link Buttons</h5>
+<p>When disabling a link button, use the <code>.disabled</code> class and be sure to add <code>aria-disabled="true"</code> to screen readers.</p>
+
+<a href="" class="disabled btn btn-primary" aria-disabled="true">Disabled Link Button</a>
